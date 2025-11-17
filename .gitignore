@@ -1,0 +1,6 @@
+# Ignorar o arquivo de dados JSON
+erp_dados.json
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
