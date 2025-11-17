@@ -29,6 +29,58 @@ Gráfico de Quantidade por Categoria.
 
 Análise de Curva ABC (valor de custo).
 
+Opção 1: Executando no seu Computador (Recomendado)
+
+Baixar os Arquivos:
+
+No GitHub, clique no botão verde <> Code.
+
+Selecione "Download ZIP".
+
+Extraia o arquivo .zip em uma pasta no seu computador.
+
+Instalar as Dependências:
+
+Abra o seu terminal (Prompt de Comando, PowerShell, etc.).
+
+Navegue para dentro da pasta que você acabou de extrair. (Use o comando cd <caminho_da_pasta>).
+
+Digite o comando abaixo para instalar a biblioteca de gráficos:
+
+pip install -r requirements.txt
+
+
+
+Executar o Programa:
+
+No mesmo terminal, digite:
+
+python mini_erp_estoque.py
+
+
+
+Opção 2: Testando no Google Colab
+
+Instalar a Biblioteca:
+
+Em uma célula de código, rode o comando:
+
+!pip install matplotlib
+
+
+
+Ajustar o Código:
+
+Copie e cole o código do mini_erp_estoque.py em uma nova célula.
+
+Importante: Você precisa comentar (colocar um # na frente) todas as linhas que contêm plt.show() (são 3 no total).
+
+Por quê? No Colab, o plt.show() trava o programa e impede o menu de continuar.
+
+Rodar o Programa:
+
+Execute a célula com o código. O menu aparecerá logo abaixo.
+
 Gráfico de Evolução (Valor Estoque vs. CMV).
 
 8. Ver Histórico: Mostra todas as vendas e compras.
