@@ -5,11 +5,8 @@ Este é um projeto de faculdade que simula um sistema de gestão de estoque (ERP
 
 O programa permite cadastrar produtos, registrar vendas e compras, salvar os dados em um arquivo (erp_dados.json) e visualizar relatórios e gráficos gerenciais.
 
--Como Executar este Projeto
 
-Existem duas formas de testar: baixando os arquivos ou usando o Google Colab.
-
-Funcionalidades Principais
+-Funcionalidades Principais
 
 1. Cadastrar produto: Adiciona um novo item (com custo, preço de venda, demanda, etc.).
 
@@ -28,6 +25,19 @@ Funcionalidades Principais
 Gráfico de Quantidade por Categoria.
 
 Análise de Curva ABC (valor de custo).
+
+Gráfico de Evolução (Valor Estoque vs. CMV).
+
+8. Ver Histórico: Mostra todas as vendas e compras.
+
+9. Sair: Encerra o programa (os dados são salvos automaticamente).
+
+
+
+
+-Como Executar este Projeto
+
+Existem duas formas de testar: baixando os arquivos ou usando o Google Colab. 
 
 Opção 1: Executando no seu Computador (Recomendado)
 
@@ -81,8 +91,3 @@ Rodar o Programa:
 
 Execute a célula com o código. O menu aparecerá logo abaixo.
 
-Gráfico de Evolução (Valor Estoque vs. CMV).
-
-8. Ver Histórico: Mostra todas as vendas e compras.
-
-9. Sair: Encerra o programa (os dados são salvos automaticamente).
